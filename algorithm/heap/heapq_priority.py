@@ -10,7 +10,7 @@ q.put((10, 'ten'))
 q.put((1, 'one'))
 q.put((5, 'five'))
 while not q.empty():
-    print(q.get())
+    print(q.get()) 
 
 # heapq, heap[k] <= heap[2*k+1] and heap[2*k+2], 0 based
 # if 1 based, heap[2*k] and heap[2*k+1]
